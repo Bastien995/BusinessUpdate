@@ -824,8 +824,10 @@ footer a {
     background-color: rgb(26, 25, 25);
   }
   #main-nav {
-    left: -100%;
-    margin: auto;
+    left: -200%;
+    width: 100%;
+    height: 100vh;
+
   }
 
   li.close-item {
