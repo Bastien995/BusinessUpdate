@@ -53,7 +53,7 @@ ul li a {
 .section-bg {
   background-image: url("../img/hd-wallpaper-6988255_1920.jpg");
   box-sizing: border-box !important;
-  background-size: auto;
+  background-size: cover;
   background-attachment: fixed;
 }
 
@@ -824,9 +824,7 @@ footer a {
     background-color: rgb(26, 25, 25);
   }
   #main-nav {
-    left: -200%;
-    width: 100%;
-    height: 100vh;
+   transform:translateX(-10px);
 
   }
 
@@ -841,10 +839,10 @@ footer a {
     border: none;
   }
   .level-1 > .dp-item > .dp-link {
-    padding-left: 28px;
+    padding-left: 40px;
   }
   .level-2 > .dp-item > .dp-link {
-    padding-left: 38px;
+    padding-left: 50px;
   }
   .dp-menu a:hover{
     color: #ccc;

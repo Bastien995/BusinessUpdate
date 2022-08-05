@@ -81,6 +81,18 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
     </script>
 
+<script>
+    function toggleMenu(id) {
+    console.log(id);
+    let nav = document.getElementById("main-nav");
+    if (id === 1) {
+    nav.style.left = "0%";
+    } else {
+nav.style.left = "-100%";
+}
+}
+</script>
+
     <script>
         AOS.init({
             duration: 1000,
