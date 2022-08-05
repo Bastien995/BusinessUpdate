@@ -756,18 +756,18 @@ display: none;
 
 @media screen and (max-width:798px) {
   .nav-dropdown {
-    background-color: rgb(0, 0, 0);
+    background-color: transparent;
   }
   .nav-list{
     background-color: rgb(0, 0, 0);
-    width: 60%;
+    width: 80%;
   }
   .nav-list li a{
     color: white !important;
     /* color: rgb(251, 22, 22); */
   }
   .nav-dropdown-list{
-    background-color: rgb(0, 0, 0);
+    background-color: transparent;
     position: relative;
     left: 0;
   }
